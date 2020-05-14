@@ -10,6 +10,8 @@ RUN apt-get clean && apt-get update -qq && apt-get install -qqy --no-install-rec
         libreadline-dev \
         libffi-dev \
         wget \
+        apt-transport-https \
+        zip \
     && curl -O https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tar.xz \
     && tar -xf Python-3.7.4.tar.xz \
     && cd Python-3.7.4 \
