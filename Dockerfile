@@ -1,4 +1,4 @@
-FROM zolweb/docker-dev:1.2.0
+FROM zolweb/docker-dev:1.2.1
 
 RUN apt-get clean && apt-get update -qq && apt-get install -qqy --no-install-recommends \
         build-essential \
